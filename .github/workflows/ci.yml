@@ -219,7 +219,7 @@ jobs:
 
       - name: Gather coverage data
         id: coverage
-        uses: actions-rs/grcov@v0.1
+        uses: felipesere/grcov@master
         with:
           coveralls-token: ${{ secrets.COVERALLS_TOKEN }}
 
